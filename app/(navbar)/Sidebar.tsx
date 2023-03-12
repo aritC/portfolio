@@ -15,7 +15,7 @@ const SideBar = ({ isOpen, setIsOpen }: Props) => {
   };
 
   const items = [
-    { name: "Hero", id: "hero" },
+    { name: "Home", id: "hero" },
     { name: "Skills", id: "skills" },
     { name: "Projects", id: "projects" },
     { name: "Work Experience", id: "work" },
