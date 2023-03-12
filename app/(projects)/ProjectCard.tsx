@@ -50,8 +50,8 @@ const ProjectCard = ({
           loop
           autoPlay
           muted
-          className={`lg:flex rounded-lg ${
-            isPortrait ? "lg:w-full lg:h-fit lg:object-cover" : ""
+          className={`lg:flex rounded-lg object-cover ${
+            isPortrait ? "lg:h-full lg:w-auto" : ""
           }`}
         >
           <source src={src} type="video/mp4" />
