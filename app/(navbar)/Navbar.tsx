@@ -7,8 +7,7 @@ interface Props {
   setIsOpen: any;
 }
 const NavBar = ({ isOpen, setIsOpen }: Props) => {
-  const resumeUrl =
-    "https://drive.google.com/file/d/1bORtIteqhcPMLC9Rp37O5cdTJbKyXThq/view?usp=sharing";
+  const resumeUrl: any = process.env.NEXT_PUBLIC_RESUME_URL;
 
   const isBrowser = () => typeof window !== "undefined";
   const scrollToTop = () => {

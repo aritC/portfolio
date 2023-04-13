@@ -7,6 +7,11 @@ body {
   overflow-x: hidden;
 }
 
+.imgsize {
+  height: 26vw;
+  width: 19.5vw;
+}
+
 #blob {
   height: 34vmax;
   aspect-ratio: 1;

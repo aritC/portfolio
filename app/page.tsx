@@ -1,5 +1,5 @@
 "use client";
-import Contact from "./Contact";
+import Contact from "./(contact)/Contact";
 import Hero from "./Hero";
 import Skills from "./Skills";
 import Work from "./(work)/Work";

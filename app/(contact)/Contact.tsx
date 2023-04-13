@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import LINKEDIN from "../public/linkedin.svg";
-import GITHUB from "../public/github.svg";
+import LINKEDIN from "../../public/linkedin.svg";
+import GITHUB from "../../public/github.svg";
 
 export default function Contact() {
   const [name, setName] = useState("");

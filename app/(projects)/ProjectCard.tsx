@@ -43,7 +43,7 @@ const ProjectCard = ({
         className="group relative h-full w-full cursor-pointer hover:scale-110 hover:z-20 lg:group-hover:ease-in lg:ease-out lg:duration-150 hover:shadow-2xl hover:shadow-black lg:transition-all "
         onClick={handleCardClick}
       >
-        <div className="text-white font-bold absolute h-16 z-10 bottom-0 p-3 bg-gradient-to-t from-black w-full opacity-100 lg:opacity-0 lg:group-hover:opacity-100 lg:transition-all lg:group-hover:ease-in lg:ease-out lg:duration-150 rounded-lg">
+        <div className="text-white font-bold absolute h-16 z-10 bottom-0 p-3 bg-gradient-to-t from-black w-full opacity-100 md:opacity-0 md:group-hover:opacity-100 md:transition-all md:group-hover:ease-in md:ease-out md:duration-150 rounded-lg">
           {title}
         </div>
         <video
