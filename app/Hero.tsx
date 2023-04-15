@@ -74,14 +74,14 @@ const Hero = () => {
         className="lg:w-9/12 text-white text-center lg:justify-evenly m-auto flex lg:flex-row flex-col lg:-translate-y-20 relative gap-5"
         id="hero"
       >
-        <div className="min-w-50 grid place-items-center">
+        {/* <div className="min-w-50 grid place-items-center">
           <Image
             priority
             src={me}
             className="rounded-3xl m-auto w-3/5 lg:imgsize"
             alt="Arit Chanda"
           />
-        </div>
+        </div> */}
         <div className="mt-0 ml-0 p-0 lg:text-left max-w-4xl h-full justify-center flex flex-col">
           <div className="lg:text-lg text-sm pl-0 mt-5 lg:mt-5 lg:pl-7 lg:mb-0 lg:pb-0">
             {salutation}
